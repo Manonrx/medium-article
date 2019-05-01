@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css?family=Handlee|Montserrat:400,700|Open+Sans');
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30;
+}
+h2 {
+  font-family: 'Handlee', cursive;
+  font-size: 20;
+}
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: #F8F1F1;
+  padding: 120px 0;
+}
+.container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #A3816A;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.card_white {
+  background: white;
+  padding: 30px;
+  width: 700px;
+  margin: 50px auto;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #0D155D;
+  background-image: linear-gradient(to bottom, #FFFDE8, #FFFDE8);
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, #F7E0A3, #F7E0A3);
+
+}
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card-white {
+    width: 300px;
+  }
+}
